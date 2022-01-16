@@ -10,15 +10,15 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="warapper">
+    <div className="wrapper">
       <div className="content">
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-            {/* <Route exact path="/contact" component={Contact} /> */}
-            <Route path="/" component={Header} />
+            <Route exact path="/about" element={<About/>} />
+            <Route exact path="/projects" element={<Projects/>} />
+            {/* <Route exact path="/contact" element={<Contact/>} /> */}
+            <Route path="/" element={<Header/>} />
           </Routes>
         </BrowserRouter>
       </div>
