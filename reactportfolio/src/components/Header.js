@@ -1,23 +1,31 @@
-<header>
-  <h1>
-    Hello! I'm <span>Srilalitha </span>a full-stack developer.
-  </h1>
-  <span
-    href="https://github.com/SrilalithaN"
-    target="_blank"
-    aria-label="github"
-    class="fa fa-github"
-  ></span>
-  <span
-    href="www.linkedin.com/in/srilalitha-nookala"
-    target="_blank"
-    aria-label="linkedin"
-    class="fa fa-linkedin"
-  ></span>
-  <span
-    href="mailto:srilalitha.ganti@gmail.com"
-    target="_blank"
-    aria-label="mail"
-    class="fa fa-envelope"
-  ></span>
-</header>;
+import React from "react";
+import "../App.css";
+
+function Header() {
+  return (
+    <div id="home">
+      <header>
+        <h1>
+          Hello! I'm <span>Srilalitha </span>a full-stack developer.
+        </h1>
+        <span>
+          <a href="https://github.com/SrilalithaN">
+            <i className="fa fa-github"></i>
+          </a>
+        </span>
+        <span>
+          <a href="www.linkedin.com/in/srilalitha-nookala">
+            <i className="fa fa-linkedin"></i>
+          </a>
+        </span>
+        <span>
+          <a href="mailto:srilalitha.ganti@gmail.com">
+            <i className="fa fa-envelope"></i>
+          </a>
+        </span>
+      </header>
+    </div>
+  );
+}
+
+export default Header;
