@@ -1,5 +1,8 @@
 import React from "react";
 import "../App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -8,21 +11,27 @@ function Header() {
         <h1>
           Hello! I'm <span>Srilalitha </span>a full-stack developer.
         </h1>
-        <span>
-          <a href="https://github.com/SrilalithaN">
-            <i className="fa fa-github"></i>
-          </a>
-        </span>
-        <span>
-          <a href="www.linkedin.com/in/srilalitha-nookala">
-            <i className="fa fa-linkedin"></i>
-          </a>
-        </span>
-        <span>
-          <a href="mailto:srilalitha.ganti@gmail.com">
-            <i className="fa fa-envelope"></i>
-          </a>
-        </span>
+
+        <a href="https://github.com/SrilalithaN">
+          <FontAwesomeIcon
+            icon={faGithub}
+            className="fa fa-github"
+          ></FontAwesomeIcon>
+        </a>
+
+        <a href="www.linkedin.com/in/srilalitha-nookala">
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            className="fa fa-linkedin"
+          ></FontAwesomeIcon>
+        </a>
+
+        <a href="mailto:srilalitha.ganti@gmail.com">
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            className="fa fa-envelope"
+          ></FontAwesomeIcon>
+        </a>
       </header>
     </div>
   );

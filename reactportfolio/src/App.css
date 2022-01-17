@@ -10,6 +10,11 @@ body {
   padding: 0;
   margin: 0;
   font-size: 62.5%;
+  
+  background-image: url("./assets/images/sunrise.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -28,9 +33,9 @@ h2 {
 }
 
 /* nav bar */
-nav {
+/* nav {
   background-color: white;
-}
+} */
 
 nav ul {
   display: flex;
@@ -47,25 +52,34 @@ nav li {
 }
 
 nav a {
-  color: darkblue;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 nav a:hover {
-  color: deepskyblue;
+  color: white;
 }
 
 /* header section */
 header {
-  background: linear-gradient(180deg, rgb(255, 255, 255), rgb(205, 237, 254));
+  /* background: linear-gradient(180deg, rgb(255, 255, 255), rgb(205, 237, 254)); */
+  /* background: url("./assets/images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: contain, cover; */
   font-size: 2.5rem;
   padding: 3rem, 5rem;
-  border-bottom: white solid 5px;
+  color:black;
 }
+/* .content {
+
+  background: url("./assets/images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 header h1 span {
-  color: darkblue;
+  color: red;
   font-family: "lobster", cursive;
   font-size: 6rem;
   padding-left: 1rem;
@@ -73,14 +87,14 @@ header h1 span {
 }
 
 header h1 span:hover {
-  color: palevioletred;
+  color: rgb(12, 192, 12);
 }
 
 /* about me section */
 .profile-img {
   border-radius: 50%;
   height: 15rem;
-  border: white 5px solid;
+  border: black 5px solid;
   display: block;
   position: relative;
   top: 10rem;
@@ -90,10 +104,10 @@ header h1 span:hover {
   display: flex;
   padding-top: 0.5rem;
   height: 50%;
-  background-color: lavender;
-  background-size: cover;
+  /* background-color: lavender; */
+  /* background-size: cover;
   background-attachment: fixed;
-  border-bottom: white solid 5px;
+  border-bottom: white solid 5px; */
   font-size: 1.5rem;
   justify-content: center;
 }
@@ -114,10 +128,10 @@ header h1 span:hover {
 
 /* my work  */
 .work {
-  background-color: #bdd5ff;
+  /* background-color: #bdd5ff; */
   font-size: 1.5rem;
   font-family: var(--sans);
-  border-bottom: white solid 5px;
+  /* border-bottom: white solid 5px; */
 }
 
 .work-items {
@@ -131,6 +145,7 @@ header h1 span:hover {
   margin-bottom: 0.2rem;
   border-radius: 10%;
   height: auto;
+
 }
 
 .project {
@@ -153,9 +168,9 @@ header h1 span:hover {
 }
 
 /* footer */
-footer {
+/* footer {
   background-color: lavender;
-}
+} */
 .social {
   display: flex;
   justify-content: space-around;
@@ -164,11 +179,12 @@ footer {
 
 /* Style all font awesome icons */
 .fa {
+  font-size: 3 rem;
   border-radius: 5%;
   padding: 0.5rem;
-  font-size: 3rem;
   width: 4rem;
-  text-align: center;
+  margin-left: 18rem;
+  align-items: center;
   text-decoration: none;
 }
 .fa-linkedin,
@@ -181,6 +197,7 @@ footer {
   color: salmon;
 }
 .copy p {
+  color: black;
   text-align: center;
   font-size: 1.5rem;
   font-family: var(--poppins);

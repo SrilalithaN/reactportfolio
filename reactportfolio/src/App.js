@@ -15,10 +15,11 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route exact path="/about" element={<About/>} />
-            <Route exact path="/projects" element={<Projects/>} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/projects" element={<Projects />} />
             {/* <Route exact path="/contact" element={<Contact/>} /> */}
-            <Route path="/" element={<Header/>} />
+            <Route path="/reactportfolio" element={<Header />} />
+            <Route path="/" element={<Header />} />
           </Routes>
         </BrowserRouter>
       </div>
