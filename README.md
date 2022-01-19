@@ -23,7 +23,7 @@
   # Links
   * The following is the link to the deployed code : https://github.com/SrilalithaN/reactportfolio
 
-  * The following is the link to deployed application : 
+  * The following is the link to deployed application : https://srilalithan.github.io/reactportfolio/
 
   # Questions
   * If you have any questions feel free to reach me at at snookala.dev@gmail.com
