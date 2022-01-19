@@ -1,13 +1,12 @@
 import React from "react";
 import "../App.css";
-import Portfolio from "./Portfolio";
-import Projectdata from "../projectData";
-import "bootstrap/dist/css/bootstrap.min.css";
+
+import projectdata from "../projectData";
 
 
-function Wrapper(props) {
-    return <div className="wrapper">{props.children}</div>;
-}
+
+
+
 function Projects() {
     return (
       <section class="work container column" id="work">
@@ -17,20 +16,34 @@ function Projects() {
             the portfolio.
           </p>
           
-          <Wrapper id="card-data">
-                {Projectdata.map((project) => (
-                    <Portfolio
-                    
-                        image={project.image}
-                        name={project.title}
-                        description = { project.description}
-                        github={project.github}
-                        link={project.link}
-                        techused={project.techused}
-                    />
-                ))}
-            </Wrapper>
-            </section>
+          <div class="work-items">
+          {projectdata.map((project) => (
+        <section class="project" key = {project.id}>
+          <img src={require(`${project.image}`)} alt='project screenshots' class="project-image" />
+          <div class="project-info">
+            <h2>{project.title}</h2>
+            <p class="tech-used">{project.techused}</p>
+            <p class="project-description">
+               {project.description}
+            </p>
+            <a
+              href={project.link}
+              class="button"
+            >
+              VIEW APP
+            </a>
+            <a
+              href={project.github}
+              class="button">
+              VIEW REPO
+            </a>
+       </div>
+       </section>
+          ))}
+
+      </div> 
+</section>
+        
     );
                 }
 export default Projects;

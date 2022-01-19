@@ -1,5 +1,6 @@
 const projects = [
-    {
+    {  
+      id: "1",
       title: "Tracking Journal",
       techused: "HTML/CSS/JavaScript/ jQuery/Web-APIs",
       description: "Tracking Journal is an application for users to find parks around a certain radius for a given address and keep track of their experiences." ,
@@ -8,15 +9,17 @@ const projects = [
       github: "https://github.com/SrilalithaN/Track-Journal",
     },
     {
+      id: "2",
       title: "Warehouse on Wheels",
       techused: "HTML/Bulma-CSS/JavaScript/Express.js/Node.js/MySQl/Sequelize",
       description:
     "  Warehouse on Wheels is a warehouse management system for second-hand car dealers.",
-      image: ".assets/images/warehouse-manager1.png",
+      image: "./assets/images/warehouse-manager1.png",
       link: "https://warehouse-manager-bootcamp.herokuapp.com/",
       github: "https://github.com/SrilalithaN/warehouse-manager",
     },
     {
+      id: "3",
       title: "Tech-Blog",
       techused: " HTML/CSS/JavaScript/Express.js/Node.js/MySQl/Sequelize/Handlebars.js",
       description:
@@ -26,6 +29,7 @@ const projects = [
       github: "https://github.com/SrilalithaN/Tech-Blog",
     },
     {
+      id: "4",
         title: "Text-Editor PWA",
         techused: "HTML/CSS/JavaScript/Node.js/PWA/Express.js",
         description:
@@ -35,6 +39,7 @@ const projects = [
         github: "https://github.com/SrilalithaN/Text-Editor-PWA",
       },
       {
+        id: "5",
         title: "Note-taker",
         techused: "HTML/CSS/JavaScript/Node.js/Express.js",
         description:
@@ -45,8 +50,9 @@ const projects = [
       },
     
     {
+      id: "6",
       title: "Weather-Dashboard",
-      subtitle: "HTML/CSS/JavaScript/jQuery/Web-APIs",
+      techused: "HTML/CSS/JavaScript/jQuery/Web-APIs",
       description:
         "Weather Dashboard is an application to find weather conditions for a given city. It displays current weather and also a 5-day weather forecast.",
         image:"./images/weather-dashboard1.png",
