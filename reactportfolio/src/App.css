@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&family=Source+Sans+Pro&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
 :root {
   --sans: "Open Sans", sans-serif;
   --poppins: "Poppins", sans-serif;
@@ -36,18 +37,16 @@ h2 {
   font-family: var(--sans);
   font-size: 2rem;
 }
-
-/* nav bar */
-/* nav {
-background-color: rgb(80, 116, 221);
- 
-} */
 .wrapper{
   margin: 0rem;
 }
+
+/* nav bar */
+
+
 nav {
 
-  background-image: url('./assets/images/concrete_wall.png');
+  background-image: url('./assets/images/mochaGrunge.png');
 }
 nav ul {
   margin-top: 0%;
@@ -76,93 +75,96 @@ nav a {
 nav a:hover {
   color: white;
 }
-
-/* header section */
-header {
-  /* background: linear-gradient(180deg, rgb(255, 255, 255), rgb(205, 237, 254)); */
-  background: url("./assets/images/sky.jpg");
-  background-repeat: no-repeat;
-  background-size:  cover;
- height: 30vw;
-
-}
-
-
-header h1  {
-  color: white;
-  font-family: "lobster", cursive;
-  font-size: 6rem;
-  padding-top: 10vw;
-  /* padding-left: 1rem;
-  padding-right: 1rem; */
-  margin:0rem;
-text-align: center;
-}
-
-.shortBio {
-  background-image: url('./assets/images/5-dots.png');
-  color: #007bb5;
-  font-size: 2rem;
-  margin-top: 0%;
-  text-align: center;
-  font-family: var(--zilla);
-  border-top: white 2px solid;
-}
-
-/* about me section */
-.profile-img {
-  border-radius: 50%;
-  height: 15rem;
-  border: black 5px solid;
-  display: block;
-  position: relative;
-  top: 10rem;
-}
-
-.about {
-  display: flex;
-  padding-top: 0.5rem;
-  height: 50%;
-  /* background-color: lavender; */
-  /* background-size: cover;
-  background-attachment: fixed;
-  border-bottom: white solid 5px; */
-  font-size: 1.5rem;
-  justify-content: center;
-}
-.about-me {
-  position: relative;
-  left: 10rem;
-}
-.description {
-  flex: 1 1 100rem;
-  flex-wrap: wrap;
-  padding-top: 0rem;
-  padding-left: 15rem;
-  padding-right: 0.3rem;
+.my-name {
   font-family: var(--poppins);
-  /* font-size: 2rem; */
-  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0rem;
+  padding-left:1rem;
+  
 }
 
-/* my work  */
+
+
+
+/* about page*/
+#aboutSect {
+  min-height: calc(100vh - 60px);
+  background-image: url(./assets/images/dust_scratches.png);
+
+
+}
+
+#about {
+  padding-bottom: 50px;
+  
+}
+
+#about p {
+  line-height: 2;
+}
+.main {
+   margin: 0rem;
+  padding: 20px 30px 30px 30px;
+}
+
+.main h2 {
+  color: black;
+  text-align: center;
+}
+
+.skills {
+  font-size: 1rem;
+  font-family: var(--sans);
+  line-height: 3;
+  display: inline-block;
+  margin-left: 8%;
+  margin-right: 5%;
+  background-color: whitesmoke;
+  max-width: 50%;
+  text-align: left;
+}
+
+
+.skills p {
+  margin: 0;
+}
+.me-pic {
+  border: 1px solid grey;
+  background-color: white;
+  width: auto;
+  margin-bottom: 40px;
+  margin-left:4rem;
+  border-radius: 10px;
+  vertical-align: top;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0), 0 5px 10px 0 rgba(0, 0, 0, 0);
+}
+
+
+
+/* projects page  */
 .work {
-  /* background-color: #bdd5ff; */
+ background-image: url('./assets/images/prism.png');
   font-size: 1.5rem;
   font-family: var(--sans);
-  /* border-bottom: white solid 5px; */
-}
+ 
 
+}
+.work-title{
+  color: white;
+}
 .work-items {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 6rem;
+  color: black;
 }
 
 .work-items img {
   margin-bottom: 0.2rem;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   height: auto;
 }
 
@@ -170,10 +172,12 @@ text-align: center;
   padding: 1rem;
   background-color: rgb(238, 236, 236);
   margin-bottom: 1rem;
-  border: white 5px solid;
-  border-radius: 10%;
+  /* border: white 5px solid; */
+  /* border-radius: 10%; */
   width: 50%;
   height: 70%;
+  /* box-shadow: 2rem whitesmoke; */
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
 }
 
 .project img {
@@ -181,54 +185,12 @@ text-align: center;
   height: 40%;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
 }
-.project:hover {
+/* .project:hover {
   transform: scale(1.5);
-}
-
-/* footer */
-footer {
-  background-image: url('./assets/images/concrete_wall.png');
-  margin-bottom: 0rem;
-}
-.social {
-  display: flex;
-  justify-content: space-around;
-  font-size: 5rem;
-}
-
-/* Style all font awesome icons */
-.fa {
-  font-size: 2rem;
-  border-radius: 5%;
-  padding: 1rem;
-  width: 4rem;
-  margin:2rem;
-  align-items: center;
-  text-decoration: none;
-}
-.fa-linkedin,
-.fa-github,
-.fa-envelope {
-  background: #007bb5;
-  color: white;
-}
-.fa:hover {
-  color: salmon;
-}
-.copy p {
-  color: white;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: var(--poppins);
-  padding-bottom: 0rem;
-  margin-bottom: 0rem;
-  margin-top: 0%;
-  border-top : white 2px solid;
-}
+} */
 .tech-used {
   font-family: var(--sans);
   font-size: 1rem;
-  /* color: rgba(0, 0, 0, 0.3); */
   color: rgb(64, 25, 70);
   margin-top: 0;
 }
@@ -251,7 +213,123 @@ footer {
   color: white;
   cursor: pointer;
 }
+/* footer */
+footer {
+  background-image: url('./assets/images/mochaGrunge.png');
+  margin-bottom: 0rem;
+}
+.copy p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: var(--poppins);
+  padding: 2rem;
+  margin:0rem;
+  border-top: 2px white solid;;
 
+
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 5rem;
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 2rem;
+  border-radius: 5%;
+  padding: 1rem;
+  width: 4rem;
+  margin:2rem;
+  align-items: center;
+  text-decoration: none;
+}
+.fa-linkedin,
+.fa-github,
+.fa-envelope
+{
+  background: #007bb5;
+  color: white;
+}
+
+.fa:hover {
+  color: salmon;
+}
+
+/* Contact page*/
+.contactBtn {
+  border-radius: 5px;
+  height: 50px;
+  border: 1px solid rgb(135, 206, 250);
+  background-color: black;
+  color: white;
+  padding: 0px 20px;
+  margin-left: 4rem;
+}
+.contact-form {
+  margin-left: 4rem;
+}
+#contact-section{
+  min-height: calc(100vh- 60px);
+  background-image: url(./assets/images/prism.png);
+}
+#contact {
+  padding-top: 100px;
+}
+.contact {
+  font-size: 50px;
+color:white;
+}
+.form-group{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  color:white;
+  padding: 1rem;
+}
+.form-control{
+  width: 50%;
+  height: 2vw;
+  border-radius: 5px;
+  
+}
+.social-links{
+margin-left: 30rem;
+}
+/* Resume page*/
+.bioText li {
+  word-wrap: break-word;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.bioText h4{
+    font-size: 2rem;
+    margin-left:1rem;
+}
+
+
+/* .dwnload-section{
+  text-align: center;
+} */
+.download{
+  font-size: 1.5rem;
+ font-weight: bold;
+ margin-top:2rem;
+ margin-left:1rem;
+}
+.fa-download{
+ position:absolute;
+ top: 6.8rem;
+  left:17rem;
+  font-size: 2rem;
+  border-radius: 5%;
+  padding: 2rem;
+  width: 7rem;
+  
+  align-items: center;
+  text-decoration: none;
+}
 /*making website responsive*/
 @media screen and (max-width: 880px) {
   nav ul {
@@ -279,12 +357,12 @@ footer {
     padding: 0rem;
     margin: 0rem;
   }
-  .contact {
+  /* .contact {
     width: auto;
   }
   .social {
     display: block;
-  }
+  } */
   /* nav {
     display: flex;
     justify-content: flex-end;
@@ -300,11 +378,11 @@ footer {
   nav li {
     padding: 0.1rem;
   } */
-  .profile-img {
+  /* .profile-img {
     position: static;
     margin-left: 10rem;
-  }
-  .about {
+  } */
+  /* .about {
     display: block;
     text-align: center;
   }
@@ -316,7 +394,7 @@ footer {
   .description {
     padding: 1.5rem;
     margin: 1rem;
-  }
+  } */
   .project {
     display: flex;
     flex-wrap: wrap;
@@ -344,7 +422,7 @@ footer {
   .project img {
     width: 100%;
   }
-  .about-me {
+  /* .about-me {
     position: static;
     margin-left: 4rem;
 
@@ -353,5 +431,5 @@ footer {
   .profile-img {
     position: static;
     margin-left: 4rem;
-  }
+  } */
 }
