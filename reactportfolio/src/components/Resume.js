@@ -6,14 +6,12 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 export default function Resume() {
     return (
 
-<div className="bioTextContainer">
+      <div id="bioTextContainer">
        
-            <div className="download">Download my resume   :</div>
+            <div className="download"> Download my resume : </div>
             <a href={resume} target='_blank' rel="noopener noreferrer">
                <FontAwesomeIcon icon= {faDownload} className=" fa-download resume"></FontAwesomeIcon>
             </a>
-            
-                
                 <div className="bioText">
                   <h4>
                     <b>Technical Skills:</b>
@@ -36,7 +34,8 @@ export default function Resume() {
                     </li>
                   </ul>
          
-                </div>
-                </div>
+              </div>
+
+      </div>
     );
 }

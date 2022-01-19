@@ -1,6 +1,6 @@
 import React ,{useEffect} from "react";
 import "../App.css";
-import meimg from '../assets/images/image.png';
+import meimg from '../assets/images/mypic.jpg';
 
 function About() {
   useEffect(() => {

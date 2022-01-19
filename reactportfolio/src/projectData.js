@@ -1,30 +1,37 @@
-const projects = [
+import image1 from "./assets/images/project-1.png";
+import image2 from "./assets/images/warehouse-manager1.png";
+import image3 from "./assets/images/tech-blog1.png";
+import image4 from "./assets/images/text-editor.png";
+import image5 from "./assets/images/note-taker1.png";
+import image6  from "./assets/images/weather-dashboard1.png";
+
+
+const projectsdata = [
     {  
       id: "1",
       title: "Tracking Journal",
-      techused: "HTML/CSS/JavaScript/ jQuery/Web-APIs",
+      techused: "JavaScript/ jQuery/Web-APIs",
       description: "Tracking Journal is an application for users to find parks around a certain radius for a given address and keep track of their experiences." ,
-      image: "../assets/images/project-1.png",
+      image: image1,
       link: "https://annanguyen1.github.io/Track-Journal/homepage.html",
       github: "https://github.com/SrilalithaN/Track-Journal",
     },
     {
       id: "2",
       title: "Warehouse on Wheels",
-      techused: "HTML/Bulma-CSS/JavaScript/Express.js/Node.js/MySQl/Sequelize",
+      techused: "JavaScript/Express.js/Node.js/MySQl/Sequelize",
       description:
     "  Warehouse on Wheels is a warehouse management system for second-hand car dealers.",
-      image: "./assets/images/warehouse-manager1.png",
+      image: image2,
       link: "https://warehouse-manager-bootcamp.herokuapp.com/",
       github: "https://github.com/SrilalithaN/warehouse-manager",
     },
     {
       id: "3",
       title: "Tech-Blog",
-      techused: " HTML/CSS/JavaScript/Express.js/Node.js/MySQl/Sequelize/Handlebars.js",
-      description:
-    " project uses the Model-View-Controller (MVC) paradigm to create a blog-style website.",
-      image: "./assets/images/tech-blog1.png",
+      techused: " JavaScript/Express/MySQL/Handlebars",
+    description : " This project uses the Model-View-Controller (MVC) paradigm to create a blog-style website.",
+      image: image3,
       link: "https://tech-blog-sri.herokuapp.com/",
       github: "https://github.com/SrilalithaN/Tech-Blog",
     },
@@ -33,18 +40,18 @@ const projects = [
         title: "Text-Editor PWA",
         techused: "HTML/CSS/JavaScript/Node.js/PWA/Express.js",
         description:
-          "Text Editor is a single page web application that runs in the browser and meets the PWA criteria. The application is installable and can function offline. ",
-        image: "./images/text-editor.png",
+          "Text Editor is a single page web application that runs in the browser and meets the PWA criteria.",
+        image: image4,
         link: "https://text-editor-pwa.herokuapp.com/",
         github: "https://github.com/SrilalithaN/Text-Editor-PWA",
       },
       {
         id: "5",
         title: "Note-taker",
-        techused: "HTML/CSS/JavaScript/Node.js/Express.js",
+        techused: "JavaScript/Node.js/Express.js",
         description:
-          "         An application to write and save note with Express.js back end and will save and retrieve note data from JSON file.",
-        image: "./images/note-taker1.png",
+          "An application to write and save note with Express.js back end and will save and retrieve note data from JSON file.",
+        image: image5,
         link: "https://note-taker-app-sri.herokuapp.com/",
         github: "https://github.com/SrilalithaN/Note-Taker",
       },
@@ -55,11 +62,11 @@ const projects = [
       techused: "HTML/CSS/JavaScript/jQuery/Web-APIs",
       description:
         "Weather Dashboard is an application to find weather conditions for a given city. It displays current weather and also a 5-day weather forecast.",
-        image:"./images/weather-dashboard1.png",
+        image: image6,
       link: "https://srilalithan.github.io/Weather-Dashboard/",
       github: "https://github.com/SrilalithaN/Weather-Dashboard",
     },
 
   ];
   
-  export default projects;
+  export default projectsdata;
