@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.02e681e8.css",
+    "main.js": "/reactportfolio/static/js/main.ab423fb3.js",
+    "static/js/787.1dd8d75c.chunk.js": "/reactportfolio/static/js/787.1dd8d75c.chunk.js",
+    "static/media/project-1.png": "/reactportfolio/static/media/project-1.919b2e8dc4bebc7c8f50.png",
+    "static/media/SrilalithaCV.pdf": "/reactportfolio/static/media/SrilalithaCV.f3b07d9d832400486ce9.pdf",
+    "static/media/tech-blog1.png": "/reactportfolio/static/media/tech-blog1.b81e7191345e8c95a122.png",
+    "static/media/weather-dashboard1.png": "/reactportfolio/static/media/weather-dashboard1.8d5208acd68b34cf6f10.png",
+    "static/media/mochaGrunge.png": "/reactportfolio/static/media/mochaGrunge.22ce38a9e63f50dd875e.png",
+    "static/media/text-editor.png": "/reactportfolio/static/media/text-editor.086420e2447bbb92d1a0.png",
+    "static/media/warehouse-manager1.png": "/reactportfolio/static/media/warehouse-manager1.b693a7f8b2cde9512a25.png",
+    "static/media/note-taker1.png": "/reactportfolio/static/media/note-taker1.c62121acdd0e39c2844b.png",
+    "static/media/mypic.jpg": "/reactportfolio/static/media/mypic.1229446e9ef7c536a0e3.jpg",
+    "index.html": "/reactportfolio/index.html",
+    "main.02e681e8.css.map": "/reactportfolio/static/css/main.02e681e8.css.map",
+    "main.ab423fb3.js.map": "/reactportfolio/static/js/main.ab423fb3.js.map",
+    "787.1dd8d75c.chunk.js.map": "/reactportfolio/static/js/787.1dd8d75c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02e681e8.css",
+    "static/js/main.ab423fb3.js"
+  ]
+}
