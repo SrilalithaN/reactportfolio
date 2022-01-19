@@ -19,10 +19,10 @@ function Projects() {
                     <h2>{project.title}</h2>
                      <p className="tech-used">{project.techused}</p>
                      <p className="project-description"> {project.description} </p>
-               <a href={project.link} className="button">
+               <a href={project.link} target='_blank' rel="noopener noreferrer" className="button">
                    VIEW APP
                </a>
-            <a href={project.github}  className="button">
+            <a href={project.github} target='_blank' rel="noopener noreferrer" className="button">
               VIEW REPO
             </a>
            </div>

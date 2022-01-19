@@ -132,14 +132,13 @@ nav a:hover {
   margin: 0;
 }
 .me-pic {
-  /* border: 1px solid grey; */
-  /* background-color: white; */
+
   width: auto;
   margin-bottom: 40px;
   margin-left:4rem;
   border-radius: 10px;
   vertical-align: top;
-  /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0), 0 5px 10px 0 rgba(0, 0, 0, 0); */
+
 }
 
 
@@ -165,7 +164,7 @@ nav a:hover {
 
 .work-items img {
   margin-bottom: 0.2rem;
-  /* border-radius: 10%; */
+
   height: auto;
 }
 
@@ -173,11 +172,10 @@ nav a:hover {
   padding: 1rem;
   background-color: rgb(238, 236, 236);
   margin-bottom: 1rem;
-  /* border: white 5px solid; */
-  /* border-radius: 10%; */
+  
   width: 50%;
   height: 70%;
-  /* box-shadow: 2rem whitesmoke; */
+
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
 }
 
@@ -274,7 +272,7 @@ footer {
   padding-top: 0rem;
 }
 #contact-section{
-  /* min-height: calc(80vh- 60px); */
+
   background-image: url(./assets/images/prism.png);
 }
 #contact {
@@ -375,44 +373,8 @@ margin-left: 30rem;
     padding: 0rem;
     margin: 0rem;
   }
-  /* .contact {
-    width: auto;
-  }
-  .social {
-    display: block;
-  } */
-  /* nav {
-    display: flex;
-    justify-content: flex-end;
-  } */
-  /* nav li {
-    padding: 0.5rem;
-  } */
-  /* nav ul {
-    display: list-item;
-    text-align: right;
-    margin-right: 1rem;
-  }
-  nav li {
-    padding: 0.1rem;
-  } */
-  /* .profile-img {
-    position: static;
-    margin-left: 10rem;
-  } */
-  /* .about {
-    display: block;
-    text-align: center;
-  }
-  .about-me {
-    position: static;
-    margin: 1rem auto;
-  }
+  
 
-  .description {
-    padding: 1.5rem;
-    margin: 1rem;
-  } */
   .project {
     display: flex;
     flex-wrap: wrap;
@@ -440,14 +402,5 @@ margin-left: 30rem;
   .project img {
     width: 100%;
   }
-  /* .about-me {
-    position: static;
-    margin-left: 4rem;
 
-    margin-bottom: 1.5rem;
-  }
-  .profile-img {
-    position: static;
-    margin-left: 4rem;
-  } */
 }

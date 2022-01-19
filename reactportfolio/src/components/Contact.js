@@ -72,7 +72,7 @@ export default function Contact() {
             </div>
             <div className="social-links">
             <span>
-          <a href="https://github.com/SrilalithaN">
+          <a href="https://github.com/SrilalithaN" target='_blank' rel="noopener noreferrer"> 
             <FontAwesomeIcon
               icon={faGithub}
               className="fa fa-github"
@@ -81,7 +81,7 @@ export default function Contact() {
         </span>
 
         <span>
-          <a href="www.linkedin.com/in/srilalitha-nookala">
+          <a href="https://linkedin.com/in/srilalitha-nookala" target='_blank' rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={faLinkedin}
               className="fa fa-linkedin"
@@ -89,7 +89,7 @@ export default function Contact() {
           </a>
         </span>
         <span>
-          <a  href ="mailto:snookala.dev@gmail.com">
+          <a  href ="mailto:snookala.dev@gmail.com" target='_blank' rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={faEnvelope}
               className="fa fa-envelope"
