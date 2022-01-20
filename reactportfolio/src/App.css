@@ -224,16 +224,13 @@ footer {
   font-size: 1.5rem;
   font-family: var(--poppins);
   padding: 2rem;
+  padding-bottom: 0rem;
   margin:0rem;
   border-top: 2px white solid;
 
 
 }
-.social {
-  display: flex;
-  justify-content: space-around;
-  font-size: 5rem;
-}
+
 
 /* Style all font awesome icons */
 .fa {
@@ -256,7 +253,10 @@ footer {
 .fa:hover {
   color: salmon;
 }
-
+.social-links{
+  margin-left: 27rem;
+  margin-top: 0rem;
+  }
 /* Contact page*/
 .contactBtn {
   border-radius: 5px;
@@ -266,6 +266,7 @@ footer {
   color: white;
   padding: 0px 20px;
   margin-left: 4rem;
+  margin-bottom:4rem;
 }
 .contact-form {
   margin-left: 4rem;
@@ -296,9 +297,7 @@ color:white;
   border-radius: 5px;
   
 }
-.social-links{
-margin-left: 30rem;
-}
+
 /* Resume page*/
 #bioTextContainer {
   height: 30rem;

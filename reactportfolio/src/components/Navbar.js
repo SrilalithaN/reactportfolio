@@ -17,12 +17,12 @@ function Navbar() {
             <NavLink to={"/projects/"} className="link">Projects</NavLink>
           </li>
           <li>
-            <NavLink to={"/contact/"} className="link">Contact</NavLink>
-          </li>
-          <li>
             <NavLink to={"/resume"} className="link">
               Resume
             </NavLink>
+          </li>
+          <li>
+            <NavLink to={"/contact/"} className="link">Contact</NavLink>
           </li>
         </ul>
       </nav>
