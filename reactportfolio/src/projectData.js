@@ -3,7 +3,7 @@ import image2 from "./assets/images/warehouse-manager1.png";
 import image3 from "./assets/images/tech-blog1.png";
 import image4 from "./assets/images/text-editor.png";
 import image5 from "./assets/images/note-taker1.png";
-import image6  from "./assets/images/weather-dashboard1.png";
+import image6  from "./assets/images/patientAppointment.png";
 
 
 const projectsdata = [
@@ -28,15 +28,24 @@ const projectsdata = [
     },
     {
       id: "3",
+      title: "Patient-Appointment Booking System ",
+      techused: " MERN (Mongo,Express,React,Node) Stack",
+    description : "This project is a website for a private clinic with a main feature to book,cancel and view appointments",
+      image: image6,
+      link: "https://mysterious-beach-71045.herokuapp.com/",
+      github: "https://github.com/SrilalithaN/Patient-Appointment-BookingSystem",
+    },
+    {
+      id: "4",
       title: "Tech-Blog",
       techused: " JavaScript/Express/MySQL/Handlebars",
     description : " This project uses the Model-View-Controller (MVC) paradigm to create a blog-style website.",
       image: image3,
       link: "https://tech-blog-sri.herokuapp.com/",
       github: "https://github.com/SrilalithaN/Tech-Blog",
-    },
-    {
-      id: "4",
+      },
+      {
+        id: "5",
         title: "Text-Editor PWA",
         techused: "HTML/CSS/JavaScript/Node.js/PWA/Express.js",
         description:
@@ -45,26 +54,16 @@ const projectsdata = [
         link: "https://text-editor-pwa.herokuapp.com/",
         github: "https://github.com/SrilalithaN/Text-Editor-PWA",
       },
-      {
-        id: "5",
-        title: "Note-taker",
+    
+    {
+      id: "6",
+      title: "Note-taker",
         techused: "JavaScript/Node.js/Express.js",
         description:
           "An application to write and save note with Express.js back end and will save and retrieve note data from JSON file.",
         image: image5,
         link: "https://note-taker-app-sri.herokuapp.com/",
         github: "https://github.com/SrilalithaN/Note-Taker",
-      },
-    
-    {
-      id: "6",
-      title: "Weather-Dashboard",
-      techused: "HTML/CSS/JavaScript/jQuery/Web-APIs",
-      description:
-        "Weather Dashboard is an application to find weather conditions for a given city. It displays current weather and also a 5-day weather forecast.",
-        image: image6,
-      link: "https://srilalithan.github.io/Weather-Dashboard/",
-      github: "https://github.com/SrilalithaN/Weather-Dashboard",
     },
 
   ];

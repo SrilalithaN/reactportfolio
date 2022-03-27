@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../assets/SrilalithaCV.pdf';
+import resume from '../assets/Sri_CV.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
